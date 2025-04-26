@@ -4,13 +4,13 @@ import DocumentsSection from "@/components/DocumentsSection";
 import ProgramFeatures from "@/components/ProgramFeatures";
 import CSRPrograms from "@/components/CSRPrograms";
 import ImageHero from "@/components/ImageHero";
+import RoadmapSection from "@/components/RoadmapSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* New Image Hero Section */}
       <ImageHero />
-
+      
       {/* Main Features */}
       <section className="py-16 px-4 bg-white">
         <div className="container mx-auto">
@@ -65,6 +65,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* New Roadmap Section */}
+      <RoadmapSection />
 
       {/* Program Features and CSR Programs */}
       <ProgramFeatures />

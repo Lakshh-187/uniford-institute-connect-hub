@@ -1,7 +1,6 @@
-
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Card, CardContent } from "@/components/ui/card";
-import { Camera, Gallery } from "lucide-react";
+import { Camera } from "lucide-react";
 
 const ImageHero = () => {
   return (

@@ -1,8 +1,8 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { 
-  Flask, 
-  Robot, 
+  Beaker, 
+  Bot, 
   Rocket, 
   Users, 
   GraduationCap,
@@ -12,12 +12,12 @@ import {
 
 const roadmapItems = [
   {
-    icon: Flask,
+    icon: Beaker,
     title: "STEM Labs",
     description: "Establish cutting-edge STEM laboratories with state-of-the-art equipment"
   },
   {
-    icon: Robot,
+    icon: Bot,
     title: "AI & Robotics",
     description: "Implement AI automation and robotics facilities for hands-on learning"
   },

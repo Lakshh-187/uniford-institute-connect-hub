@@ -1,7 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import DocumentsSection from "@/components/DocumentsSection";
+import ProgramFeatures from "@/components/ProgramFeatures";
+import CSRPrograms from "@/components/CSRPrograms";
 
 const Index = () => {
   return (
@@ -71,6 +72,10 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* New Interactive Components */}
+      <ProgramFeatures />
+      <CSRPrograms />
 
       {/* How it Works */}
       <section className="py-16 px-4">

@@ -3,44 +3,37 @@ import { Card, CardContent } from "@/components/ui/card";
 import DocumentsSection from "@/components/DocumentsSection";
 import ProgramFeatures from "@/components/ProgramFeatures";
 import CSRPrograms from "@/components/CSRPrograms";
+import ImageHero from "@/components/ImageHero";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-50 to-white py-20 px-4">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">UIEC</h1>
-          <p className="text-2xl md:text-3xl font-semibold mb-4">Uniford Institutional Empowerment Council</p>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Transforming member institutes to international standards through CSR, Venture & Alumni funded projects
-          </p>
-        </div>
-      </section>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      {/* New Image Hero Section */}
+      <ImageHero />
 
       {/* Main Features */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-white">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
+            <Card className="hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-4">CSR Establishment</h3>
+                <h3 className="text-xl font-semibold mb-4 text-blue-600">CSR Establishment</h3>
                 <p className="text-gray-600">
                   Connect & establish innovative projects, programs, portals & ecosystem using CSR grants & hackathons
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-4">Technology Integration</h3>
+                <h3 className="text-xl font-semibold mb-4 text-blue-600">Technology Integration</h3>
                 <p className="text-gray-600">
                   Implement AI automation, AR/VR labs, robotics facilities, and cutting-edge digital infrastructure
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-4">Global Connections</h3>
+                <h3 className="text-xl font-semibold mb-4 text-blue-600">Global Connections</h3>
                 <p className="text-gray-600">
                   Access to worldwide student programs, clubs, societies, and platforms like TEDx
                 </p>
@@ -73,7 +66,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* New Interactive Components */}
+      {/* Program Features and CSR Programs */}
       <ProgramFeatures />
       <CSRPrograms />
 
@@ -117,9 +110,11 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Institution?</h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join UIEC and access world-class resources, funding, and opportunities for your institution
+            Join UIEC and access world-class resources, funding, and opportunities for your institution. No membership fees - only excellence required.
           </p>
-          <Button size="lg">Apply for Membership</Button>
+          <Button size="lg" className="animate-pulse hover:animate-none">
+            Apply for Membership
+          </Button>
         </div>
       </section>
     </div>

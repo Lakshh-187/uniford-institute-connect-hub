@@ -39,18 +39,20 @@ const DocumentsSection = () => {
               <ul className="space-y-3">
                 <li>
                   <Button variant="outline" className="w-full justify-start" asChild>
-                    <Link to="/uirad">UIRAD</Link>
+                    <a href="https://scholar.uniford.org/uirad" target="_blank" rel="noopener noreferrer">UIRAD</a>
                   </Button>
                 </li>
                 <li>
                   <Button variant="outline" className="w-full justify-start" asChild>
-                    <Link to="/pitchburg">Pitchburg</Link>
+                    <a href="https://scholar.uniford.org/uni-pitch" target="_blank" rel="noopener noreferrer">Pitchburg</a>
                   </Button>
                 </li>
                 <li>
-                  <Button variant="outline" className="w-full justify-start">
-                    Contact Support
-                  </Button>
+                 <Button variant="outline" className="w-full justify-start" asChild>
+                    <a href="https://wa.me/7347099610?text=Hello!%20I%20have%20a%20question." target="_blank" rel="noopener noreferrer">
+                      Contact Support
+                    </a>
+                  </Button>                  
                 </li>
               </ul>
             </CardContent>

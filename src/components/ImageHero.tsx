@@ -20,7 +20,7 @@ const ImageHero = () => {
             <Card className="col-span-2 hover:shadow-lg transition-all duration-300">
               <AspectRatio ratio={16/9}>
                 <img 
-                  src="photo-1487958449943-2429e8be8625" 
+                  src="https://i.ibb.co/9mT2SXRS/a-photo-of-a-uniford-banner-with-the-tex-F6-Ok-NW-R9u-OSFXki-Mm-HQg-Pma5ofm2-TW-Ewy-M-ya-Vzk-Q.jpg" 
                   alt="Modern educational institution"
                   className="object-cover w-full h-full rounded-t-lg"
                 />
@@ -28,14 +28,14 @@ const ImageHero = () => {
               <CardContent className="p-4">
                 <div className="flex items-center gap-2 text-sm text-gray-600">
                   <Camera className="h-4 w-4" />
-                  <span>State-of-the-art Facilities</span>
+                  <span>6 i Campaign</span>
                 </div>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-all duration-300">
               <AspectRatio ratio={1}>
                 <img 
-                  src="photo-1496307653780-42ee777d4833" 
+                  src="https://i.ibb.co/0j0NRqzC/a-large-banner-with-the-text-partner-pro-ACeul-EBRQlm-O0-BPws-QRmfw-35-CA-my-AR3-Me-ZQy-SAIq7-A.jpg" 
                   alt="Modern architecture"
                   className="object-cover w-full h-full rounded-t-lg"
                 />
@@ -44,7 +44,7 @@ const ImageHero = () => {
             <Card className="hover:shadow-lg transition-all duration-300">
               <AspectRatio ratio={1}>
                 <img 
-                  src="photo-1449157291145-7efd050a4d0e" 
+                  src="https://i.ibb.co/hRSqmjbZ/a-confrence-hall-having-three-young-proffesors-con-TGMWs3-Ma-TPKpk-L6-Qug-Ph-Og-cfv9yv2-OQNC9-UNZ1-G.jpg" 
                   alt="Campus view"
                   className="object-cover w-full h-full rounded-t-lg"
                 />

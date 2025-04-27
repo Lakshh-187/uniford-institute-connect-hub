@@ -5,6 +5,7 @@ import ProgramFeatures from "@/components/ProgramFeatures";
 import CSRPrograms from "@/components/CSRPrograms";
 import ImageHero from "@/components/ImageHero";
 import RoadmapSection from "@/components/RoadmapSection";
+import AwardCategories from "@/components/AwardCategories";
 
 const Index = () => {
   return (
@@ -68,11 +69,6 @@ const Index = () => {
 
       {/* New Roadmap Section */}
       <RoadmapSection />
-
-      {/* Program Features and CSR Programs */}
-      <ProgramFeatures />
-      <CSRPrograms />
-
       {/* How it Works */}
       <section className="py-16 px-4">
         <div className="container mx-auto">
@@ -105,6 +101,28 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Modern Architecture */}
+      <section className="bg-gray-50 py-12">
+          <div className="container mx-auto text-center">
+              <img src="https://i.ibb.co/nMYkWXMk/there-are-three-flags-uniford-foundation-rising-un-N2watci7-Te-C5f1z-Rtb-L0u-A-FSI4-Q-M-T427-OCg1cd.jpg" 
+                  alt="Modern Architecture" className="mx-auto mb-8 rounded-lg shadow-md" style={{ width: '80%', height: 'auto' }} />
+              <div className="max-w-3xl mx-auto">
+                  <h2 className="text-4xl font-bold mb-4 text-center">
+                      Modern Architecture
+                  </h2>
+                  <p className="text-lg text-gray-600 text-center">
+                      Our institutions are designed to inspire and foster collaboration
+                  </p>
+              </div>
+          </div>
+      </section>
+      <AwardCategories/>
+
+      {/* Program Features and CSR Programs */}
+      <ProgramFeatures />
+      <CSRPrograms />
+
+
       {/* Documents Section */}
       <DocumentsSection />
 
@@ -115,9 +133,11 @@ const Index = () => {
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Join UIEC and access world-class resources, funding, and opportunities for your institution. No membership fees - only excellence required.
           </p>
-          <Button size="lg" className="animate-pulse hover:animate-none">
-            Apply for Membership
-          </Button>
+          <a href="https://forms.gle/pMYj8WmLE9dVbduM6" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="animate-pulse hover:animate-none">
+              Apply for Membership
+            </Button>
+          </a>
         </div>
       </section>
     </div>

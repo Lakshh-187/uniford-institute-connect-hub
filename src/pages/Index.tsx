@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import DocumentsSection from "@/components/DocumentsSection";
+import DocumentsSection from "@/components/DocumentsSection"; 
 import ProgramFeatures from "@/components/ProgramFeatures";
 import CSRPrograms from "@/components/CSRPrograms";
 import ImageHero from "@/components/ImageHero";
@@ -8,8 +8,39 @@ import RoadmapSection from "@/components/RoadmapSection";
 import AwardCategories from "@/components/AwardCategories";
 
 const Index = () => {
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+        {/* Navbar */}
+        <nav className="bg-white shadow-md py-4 px-4 sticky top-0 z-10">
+            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center ">
+              <div className="text-2xl font-bold text-blue-600">UIEC</div>
+              <div className="mt-4 md:mt-0 flex flex-col md:flex-row md:space-x-3 space-y-2 md:space-y-0 w-full md:w-auto ">
+              <a href="https://scholar.uniford.org/uni-pitch" target="_blank" rel="noopener noreferrer">
+                  <Button size="sm" className="bg-blue-500 hover:bg-blue-600 text-white w-full md:w-auto">Pitchburg</Button>
+                </a>
+                <a href="https://scholar.uniford.org/uirad" target="_blank" rel="noopener noreferrer">
+                  <Button size="sm" className="bg-blue-500 hover:bg-blue-600 text-white w-full md:w-auto">UIRAD</Button>
+                </a>
+                <a href="https://wa.me/7347099610?text=Hello!%20I%20have%20a%20question." target="_blank" rel="noopener noreferrer">
+                  <Button size="sm" className="bg-blue-500 hover:bg-blue-600 text-white w-full md:w-auto">HELP DESK</Button>
+                </a>
+                <Button size="sm" variant="outline" className="hover:bg-blue-100 hover:text-blue-700 border-blue-500 text-blue-500 w-full md:w-auto" >
+                   Become Member
+                </Button>
+
+                <a href="https://forms.gle/RZGDwW3iNwPHPH7E8" target="_blank" rel="noopener noreferrer">
+                    <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                        Request for UIEC Member
+                    </Button>
+
+
+                </a>
+              </div>
+            </div>
+          </nav>
+
+        {/* Hero Section */}
       <ImageHero />
       
       {/* Main Features */}
